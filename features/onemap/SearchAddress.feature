@@ -13,7 +13,7 @@ Feature: To Test the Search Address Functionality for One Map
       | Info Position | 1.2926055,103.859725                               |
 
 
-  # Assuming that search via geo coordinates is possible
+  # Assuming that search via geo coordinates is possible and this test will fail.
   @onemap
   Scenario: Verify when the address is search via geo coordinates then infobox is displayed with correct details
     Given The user enters the "1.2926055,103.859725" using Search Address field
