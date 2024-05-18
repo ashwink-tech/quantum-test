@@ -51,10 +51,10 @@ There are other gherkin [keywords](https://cucumber.io/docs/gherkin/reference/#k
    * Clone the repository : `git@github.com:ashwink-tech/quantum-test.git`
    * Traverse to the Repo folder and run following commands:
    * `cd /resources/runnerscript`
-   * ` sh local_test_runner.sh https://www.onemap.gov.sg/ "xyz" Chrome`
+   * `sh local_test_runner.sh https://www.onemap.gov.sg/ Chrome`
  
  * To run the specific scenario locally, run the following command (example):
-   * `sh test_script.sh https://www.onemap.gov.sg/  LocalRemoteChrome  features/onemap/SearchAddress.feature:39`
+   * `sh local_test_runner.sh https://www.onemap.gov.sg/ Chrome features/onemap/SearchAddress.feature:39`
   here 39 is the line number of Scenario.
     
 ## Test Report
