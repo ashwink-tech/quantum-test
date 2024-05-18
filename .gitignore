@@ -1,0 +1,27 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+Logs*/
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+build/
+screenshots/.idea
+screenshots/*.png
