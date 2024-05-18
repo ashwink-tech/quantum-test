@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Cucumber Suite" parallel="true" data-provider-thread-count="22">
+<suite name="Cucumber Suite" parallel="true" data-provider-thread-count="4">
     <test name="Quantum Tests">
         <packages>
             <package name="runner"/>
