@@ -35,8 +35,6 @@
           <systemPropertyVariables>
             <baseurl>${env.url}</baseurl>
             <browser>${browser}</browser>
-            <ggrBaseUrl>${env.ggrBaseUrl}</ggrBaseUrl>
-            <mockSbdBaseUrl>${env.mockSbdBaseUrl}</mockSbdBaseUrl>
             <testng.dtd.http>true</testng.dtd.http>
           </systemPropertyVariables>
           <suiteXmlFiles>
