@@ -29,10 +29,6 @@ public class SeleniumHelper {
     return findElement(driver, sLocator);
   }
 
-  public static WebElement getElementWithoutWait(WebDriver driver, String sLocator) {
-    return findElement(driver, sLocator);
-  }
-
   public static WebElement findElement(WebDriver driver, String sLocator) {
     return driver.findElement(xpath(sLocator));
   }
