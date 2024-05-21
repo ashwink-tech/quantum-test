@@ -49,8 +49,4 @@ public class SeleniumHelper {
   public static ChromeOptions getChromeOptions() {
     return new ChromeOptions();
   }
-
-  public static FirefoxOptions getFireFoxOptions() {
-    return new FirefoxOptions() ;
-  }
 }
