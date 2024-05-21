@@ -30,10 +30,4 @@ public class BrowserActions {
     info("Entering " + inputValue + "in an input field " + sLocator);
     getElement(driver, sLocator).sendKeys(inputValue);
   }
-
-  public static void uploadFile(WebDriver driver, String filePath, String sLocator, String waitForLocator) {
-    info("Upload the File");
-    getElementWithoutWait(driver, sLocator).sendKeys(filePath);
-    waitForElement.accept(driver, waitForLocator);
-  }
 }
